@@ -1,7 +1,18 @@
 body {
-    margin: 0;
+    background-color: rgb(84, 84, 84);
 }
 
 .heading {
-    background-color: rgb(201, 196, 196);
+    background-color: cadetblue;
+    border-radius: 5vh;
+}
+
+.heading h1 {
+  color: white;  
+  margin-left: 4vw;
+}
+
+.heading p {
+  color: rgb(204, 204, 204);
+  margin-left: 4vw;
 }
