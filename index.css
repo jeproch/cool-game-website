@@ -1,18 +1,22 @@
 body {
-    background-color: rgb(84, 84, 84);
+  background-color: rgb(84, 84, 84);
 }
 
 .heading {
-    background-color: cadetblue;
-    border-radius: 5vh;
+  background-color: cadetblue;
+  border-radius: 5vh;
+  height: 17vh;
+  width: 95vw;
 }
 
 .heading h1 {
   color: white;  
+  margin-top: 1vh;
   margin-left: 4vw;
 }
 
 .heading p {
-  color: rgb(204, 204, 204);
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
   margin-left: 4vw;
 }
