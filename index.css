@@ -6,7 +6,7 @@ body {
   background-color: cadetblue;
   border-radius: 5vh;
   height: 25vh;
-  width: 95vw;
+  width: 97vw;
 }
 
 .heading h1 {
@@ -25,16 +25,51 @@ body {
 /* BODY FOR THE PAGE STYLING  */
 
 .body-for-page {
-  background-color: cadetblue;
+  background-color: rgb(81, 126, 128);
   margin-top: 5vh;
   border-radius: 5vh;
-  height: 17vh;
-  width: 95vw;
+  width: 97vw;
 }
 
 .body-for-page p {
   color: white;
   font-size: 2vw;
-  margin-left: 4vw;
+  margin-left: 2vw;
+  margin-right: 4vw;
   padding-top: 1vw;
+  margin-bottom: 2vh;
+
+}
+
+/* BUTTONS PAGE */
+
+.first-button {
+  margin-left: 2vw;
+}
+
+.buttons {
+  width: 97vw;
+  background-color: rgb(81, 126, 128);
+  height: 15vh;
+  border-radius: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons button {
+  background-color: rgb(97, 94, 94);
+  margin-top: 3vh;
+  border-radius: 2vh;
+  height: 10vh;
+  width: 18vw;
+  border: none;
+  font-size: 30px;
+  color: white;
+  margin-right: 8vw;
+}
+
+.buttons button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgb(67, 65, 65);
+  color: cadetblue;
 }
