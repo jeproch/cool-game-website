@@ -5,7 +5,7 @@ body {
 .install-heading {
     background-color: cadetblue;
     width: 70vw;
-    height: 10vw;
+    height: 13vw;
     border-radius: 5vh;
 }
 
@@ -16,5 +16,8 @@ body {
 }
 
 .install-heading p{
-    
+    margin-left: 2vw;
+    font-size: 3vw;
+    color: white;
 }
+

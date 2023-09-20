@@ -12,12 +12,10 @@ let supportBtn = document.getElementById("support-btn")
 // procedures/functions
 
 contactBtn.addEventListener('click', function() {
-    alert('Redirecting to contact.html')
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw"
     // window.location.href = ""
 })
 
 installBtn.addEventListener('click', function() {
-    alert('Redirecting to install.html')
     window.location.href = "./install/install.html"
 })
