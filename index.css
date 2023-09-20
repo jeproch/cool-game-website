@@ -5,7 +5,7 @@ body {
 .heading {
   background-color: cadetblue;
   border-radius: 5vh;
-  height: 17vh;
+  height: 25vh;
   width: 95vw;
 }
 
@@ -13,10 +13,28 @@ body {
   color: white;  
   margin-top: 1vh;
   margin-left: 4vw;
+  font-size: 4vw;
 }
 
 .heading p {
   color: rgb(255, 255, 255);
   font-size: 2vw;
   margin-left: 4vw;
+}
+
+/* BODY FOR THE PAGE STYLING  */
+
+.body-for-page {
+  background-color: cadetblue;
+  margin-top: 5vh;
+  border-radius: 5vh;
+  height: 17vh;
+  width: 95vw;
+}
+
+.body-for-page p {
+  color: white;
+  font-size: 2vw;
+  margin-left: 4vw;
+  padding-top: 1vw;
 }
