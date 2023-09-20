@@ -12,5 +12,11 @@ let supportBtn = document.getElementById("support-btn")
 // procedures/functions
 
 contactBtn.addEventListener('click', function() {
-    //For contact button
+    alert('Redirecting to contact.html')
+    window.location.href = "./contact/contact.html"
+})
+
+installBtn.addEventListener('click', function() {
+    alert('Redirecting to install.html')
+    window.location.href = "./install/install.html"
 })

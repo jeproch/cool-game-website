@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(84, 84, 84);
+}
+
+.install-heading {
+    background-color: cadetblue;
+    width: 50vw;
+    height: 10vw;
+    border-radius: 5vh;
+}
