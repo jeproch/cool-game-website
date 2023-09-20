@@ -13,7 +13,8 @@ let supportBtn = document.getElementById("support-btn")
 
 contactBtn.addEventListener('click', function() {
     alert('Redirecting to contact.html')
-    window.location.href = "./contact/contact.html"
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw"
+    // window.location.href = ""
 })
 
 installBtn.addEventListener('click', function() {
