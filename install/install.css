@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(186, 186, 186);
 }
 
 .install-heading {
-    background-color: cadetblue;
+    background-color: rgb(238, 240, 240);
     width: 70vw;
     height: 13vw;
     border-radius: 5vh;
@@ -12,12 +12,12 @@ body {
 .install-heading h1 {
     margin-left: 2vw;
     font-size: 4vw;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .install-heading p{
     margin-left: 2vw;
     font-size: 3vw;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
