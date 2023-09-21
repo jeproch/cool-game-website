@@ -4,22 +4,22 @@ body {
 
 .heading {
   background-color: rgb(223, 223, 223);
-  border-radius: 5vh;
-  height: 25vh;
-  width: 97vw;
+  border-radius: 3vh;
+  height: 10vh;
+  width: 37vw;
 }
 
-.heading h1 {
+h1 {
   color: rgb(0, 0, 0);  
   margin-top: 5vh;
-  margin-left: 4vw;
   font-size: 4vw;
+  margin-left: 1vw;
 }
 
 .heading p {
   color: rgb(0, 0, 0);
   font-size: 2vw;
-  margin-left: 4vw;
+  margin-left: 2vw;
 }
 
 /* BODY FOR THE PAGE STYLING  */

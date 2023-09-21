@@ -1,6 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Page loaded')
-})
+document.addEventListener("DOMContentLoaded", function () {
+    // Code to execute when the DOM is ready
+    var isMobile =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
+  
+    if (isMobile === true) {
+      window.location.href = "./mobile/mobile.html";
+    }
+});
 
 //All elements
 

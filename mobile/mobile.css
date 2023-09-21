@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(120, 204, 207);
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 7vw;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.heading {
+    background-color: rgb(161, 223, 248);
+    width: 40vw;
+    height: 5vh;
+    margin-left: 1vw;
+    border-radius: 3vw;
+}
+
+.heading p {
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    margin-left: 3vw;
+}

@@ -21,3 +21,14 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.installation-steps {
+    background-color: rgb(238, 240, 240);
+    width: 65vw;
+    height: 9vw;
+    border-radius: 5vh;
+}
+
+.installation-steps li {
+    font-size: 2vw;
+    
+}
