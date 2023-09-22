@@ -13,9 +13,12 @@ h1 {
 .heading {
     background-color: rgb(161, 223, 248);
     width: 40vw;
-    height: 5vh;
+    height: 7vh;
     margin-left: 1vw;
     border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading p {

@@ -21,7 +21,7 @@ let supportBtn = document.getElementById("support-btn")
 
 contactBtn.addEventListener('click', function() {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw"
-    // window.location.href = ""
+    // window.location.href = "./contact/contact.html" 
 })
 
 installBtn.addEventListener('click', function() {
