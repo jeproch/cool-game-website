@@ -1,5 +1,16 @@
-let menuBtn = document.getElementById("menu-btn");
+let menuBtn = document.getElementById("menu-btn")
+let menuDiv = document.getElementById("menu-div")
+let notMenu = document.getElementById("not-menu")
+
+document.addEventListener('DOMContentLoaded', function() {
+    menuDiv.classList.add("hide")
+    notMenu.classList.remove("hide");
+})
 
 menuBtn.addEventListener('click', function() {
-    console.log("works");
+    console.log("works")
+    menuDiv.classList.remove("hide")
+    notMenu.classList.add("hide")
+
 })
+
