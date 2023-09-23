@@ -3,6 +3,17 @@ body {
     margin: 0;
 }
 
+.h1-and-menu-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-and-menu-button ion-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 h1 {
     color: black;
     font-size: 7vw;
@@ -13,7 +24,7 @@ h1 {
 .heading {
     background-color: rgb(161, 223, 248);
     width: 40vw;
-    height: 7vh;
+    height: 12vh;
     margin-left: 1vw;
     border-radius: 3vw;
     display: flex;
