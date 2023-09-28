@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 menuBtn.addEventListener('click', function() {
+    //With transition
     console.log("works")
     menuDiv.classList.remove("hide")
     notMenu.classList.add("hide")
-
 })
 
