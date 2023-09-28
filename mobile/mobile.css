@@ -135,3 +135,20 @@ h1 {
       background-position: 0 100%;
     }
 }
+
+.hover-paragraph {
+    transition: 0.3s ease;
+    height: 35vh;
+    background-color: gray;
+    margin: 0;
+
+    /* 
+    background-color: white;
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
