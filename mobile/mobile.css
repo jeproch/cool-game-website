@@ -58,14 +58,24 @@ h1 {
     text-align: center;
 }
 
-.first-paragraph {
-    background-color: rgb(134, 210, 243);
+.paragraph {
+    background-color: rgb(90, 194, 239);
     width: 100vw;
     height: 30vh;
     margin: 0;
     display: flex;
     justify-content: center; /* Centers horizontally (x-axis) */
     align-items: center; /* Centers vertically (y-axis) */
+}
+
+.paragraph-2 {
+    background-color: rgb(176, 218, 237);
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally (x-axis) */
+    align-items: center; /* Centers vertically (y-axis) */ 
 }
 
 .first-paragraph p {
