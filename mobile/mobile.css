@@ -137,18 +137,14 @@ h1 {
 }
 
 .hover-paragraph {
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
     height: 35vh;
-    background-color: gray;
+    background-color: rgb(217, 217, 217);
     margin: 0;
+}
 
-    /* 
-    background-color: white;
-    width: 100vw;
+.not-hovering-paragraph-1 {
+    transition: 0.3s ease-in-out;
     height: 30vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    */
+    background-color: rgb(90, 194, 239);
 }

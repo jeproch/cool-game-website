@@ -14,25 +14,64 @@ menuBtn.addEventListener('click', function() {
     notMenu.classList.add("hide")
 })
 
-
-//only for first paragraph!!
-
-// Get a reference to the element you want to add the class to
 const paragraph = document.getElementById('paragraph');
+const paragraph2 = document.getElementById('paragraph-2');
+const paragraph3 = document.getElementById('paragraph-3');
 
-// Add a touchstart event listener to detect when the user taps on the element
+function addHoverClass(element) {
+    element.classList.add('hover-paragraph');
+    // Remove the not-hovering class when hovering
+    element.classList.remove('not-hovering-paragraph');
+}
+
+function addNotHoverClass(element) {
+    element.classList.add('not-hovering-paragraph');
+    // Remove the hover class when not hovering
+    element.classList.remove('hover-paragraph');
+}
+
+function removeHoverClass(element) {
+    element.classList.remove('hover-paragraph');
+    // Add a class that triggers the removal transition
+    element.classList.add('remove-transition');
+    // After the transition duration, remove the transition class
+    setTimeout(() => {
+        element.classList.remove('remove-transition');
+    }, 300); // 300ms matches the transition duration
+}
+
 paragraph.addEventListener('touchstart', function(event) {
-    // Prevent the default touchstart behavior (e.g., scrolling)
     event.preventDefault();
-
-    // Add the CSS class when the user taps on the paragraph
-    paragraph.classList.add('hover-paragraph');
+    addHoverClass(paragraph);
 });
 
-// Add a touchend event listener to detect when the user stops touching the paragraph
 paragraph.addEventListener('touchend', function(event) {
-    // Remove the CSS class when the user stops touching the paragraph
-    paragraph.classList.remove('hover-paragraph');
+    event.preventDefault();
+    removeHoverClass(paragraph);
+    // Add not-hovering class when not hovering
+    addNotHoverClass(paragraph);
 });
 
-//only for first paragraph!!
+paragraph2.addEventListener('touchstart', function(event) {
+    event.preventDefault();
+    addHoverClass(paragraph2);
+});
+
+paragraph2.addEventListener('touchend', function(event) {
+    event.preventDefault();
+    removeHoverClass(paragraph2);
+    // Add not-hovering class when not hovering
+    addNotHoverClass(paragraph2);
+});
+
+paragraph3.addEventListener('touchstart', function(event) {
+    event.preventDefault();
+    addHoverClass(paragraph3);
+});
+
+paragraph3.addEventListener('touchend', function(event) {
+    event.preventDefault();
+    removeHoverClass(paragraph3);
+    // Add not-hovering class when not hovering
+    addNotHoverClass(paragraph3);
+});
