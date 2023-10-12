@@ -105,23 +105,9 @@ h1 {
     font-size: 25px;
     margin-left: 2vw;
     margin-right: 2vw;
+    position: relative;
 }
 
-.bottom-bar {
-    background-color: black;
-    width: 100vw;
-    height: 23vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.bottom-bar p {
-    font-size: 25px;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    color: white;
-}
 
 .bottom-bar p:hover {
     color: rgb(90, 194, 239);
