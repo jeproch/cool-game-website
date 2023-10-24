@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 menuBtn.addEventListener('click', function() {
     //With transition
-    console.log("works")
     menuDiv.classList.remove("hide")
     notMenu.classList.add("hide")
 })
@@ -75,3 +74,13 @@ paragraph3.addEventListener('touchend', function(event) {
     // Add not-hovering class when not hovering
     addNotHoverClass(paragraph3);
 });
+
+//For menu 
+
+let goHomeBTN = document.getElementById('home-from-menu-btn')
+
+goHomeBTN.addEventListener('click', function() {
+  //Write here a function to show the main page
+  menuDiv.classList.remove("hide")
+  notMenu.classList.add("hide")
+})
