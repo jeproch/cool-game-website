@@ -39,42 +39,6 @@ function removeHoverClass(element) {
     }, 300); // 300ms matches the transition duration
 }
 
-paragraph.addEventListener('touchstart', function(event) {
-    event.preventDefault();
-    addHoverClass(paragraph);
-});
-
-paragraph.addEventListener('touchend', function(event) {
-    event.preventDefault();
-    removeHoverClass(paragraph);
-    // Add not-hovering class when not hovering
-    addNotHoverClass(paragraph);
-});
-
-paragraph2.addEventListener('touchstart', function(event) {
-    event.preventDefault();
-    addHoverClass(paragraph2);
-});
-
-paragraph2.addEventListener('touchend', function(event) {
-    event.preventDefault();
-    removeHoverClass(paragraph2);
-    // Add not-hovering class when not hovering
-    addNotHoverClass(paragraph2);
-});
-
-paragraph3.addEventListener('touchstart', function(event) {
-    event.preventDefault();
-    addHoverClass(paragraph3);
-});
-
-paragraph3.addEventListener('touchend', function(event) {
-    event.preventDefault();
-    removeHoverClass(paragraph3);
-    // Add not-hovering class when not hovering
-    addNotHoverClass(paragraph3);
-});
-
 //For menu 
 
 let goHomeBTN = document.getElementById('home-from-menu-btn')
